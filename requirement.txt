@@ -1,0 +1,15 @@
+In ubuntu 18.04
+python 3.7.2
+
+# "pip3 install mxnet==1.4.1" for cpu
+# "pip3 install mxnet-cu101==1.4.1" for gpu
+# "cu101" means cuda version is 10.1. If your cuda version is 9.2, please change to "pip3 install mxnet-cu92==1.4.1"
+# Guide ducuments for installing mxnet: https://mxnet.incubator.apache.org/versions/master/install/index.html&version=v1.4.1#
+# Please don't use mxnet 1.5.0, there are some bugs.
+# if you install gluonts before mxnet, it will help you automatically install mxnet 1.4.1 for cpu
+# if you want to use mxnet for gpu, you should uninstall mxnet and install it manually
+mxnet 1.4.1
+
+# "pip3 install gluonts"
+gluonts 0.3.2
+
