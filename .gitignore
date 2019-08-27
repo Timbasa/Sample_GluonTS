@@ -55,4 +55,4 @@ Thumbs.db
 *.pdf
 *.blg
 
-/venv/
+/venv
